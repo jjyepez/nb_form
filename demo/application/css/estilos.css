@@ -1,0 +1,84 @@
+/* ------------- clases comunes --------------- */
+body {font-family: sans-serif; font-size: 0.8em;}
+.alinear-derecha {text-align:right;}
+.negrita{font-weight:bold;}
+.normal{font-weight:normal;}
+.ancho-120 {max-width: 120px; width: 100%;}
+.ancho-200 {max-width: 200px; width: 100%;}
+.ancho-250 {max-width: 250px; width: 100%;}
+.ancho-300 {max-width: 300px; width: 100%;}
+.ancho-600 {max-width: 600px; width: 100%;}
+.ancho-40-porciento {max-width: 40%; width: 100%;}
+.ancho-50-porciento {max-width: 50%; width: 100%;}
+.alinear-arriba {vertical-align: top;}
+/* -------------------------------------------- */
+.contenedor_formulario { 
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	border-radius: 3px;
+	background-color: #eff0ff; 
+	margin: 0 auto; 
+	padding: 10px 20px;
+	width: 630px;
+}
+/* ------------ a continuacion clases propias del ns_formulario ---------- */
+.ns_formulario {margin: 0 auto;}
+.ns_formulario hr {margin: 0; border: 0;border-bottom:1px dotted #ccc;height: 10px}
+.ns_formulario table { width: 100%;}
+.ns_formulario table tr:hover td { background-color: rgba(255,255,255,0.5);}
+
+.ns_formulario .titulo {
+	font-size: 1.2em;
+}
+.ns_formulario td.celda-etiqueta,
+.ns_formulario td.celda-campo {
+	border-bottom: 1px dotted #ccc;
+}
+.ns_formulario td.celda-etiqueta label{
+	margin: 4px 0;
+}
+.ns_formulario .campo_tooltip {
+	font-size: 0.8em;
+	opacity: 0.5;
+}
+.ns_formulario .mensaje_validacion {
+	font-size: 0.8em;
+	color: #ff0000;
+}
+.ns_formulario .ns_campo_formulario {
+	font-family: inherit;
+	font-size: inherit;
+	border: 1px solid #ddd;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	background: none;
+	background-color: #fff;
+	padding: 3px;
+	margin: 3px 0;
+	border-radius: 2px;
+}
+.ns_formulario .ns_campo_formulario:hover {
+	border: 1px solid #999;
+	border-top: 1px solid #777;
+	border-left: 1px solid #777;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2) inset;
+}
+.ns_formulario .ns_campo_formulario:focus {
+	border: 1px solid #369;
+	background-color: #ffffee;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2) inset;
+}
+.ns_formulario .area-botones {
+	text-align: center;
+	vertical-align: center;
+	padding:5px;
+}
+.ns_formulario img.ns_imagen_formulario {
+	width: 200px;
+	height: auto;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding: 3px;
+}
